@@ -46,27 +46,27 @@ const VeNganKim = () => {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 mb-12">
-            <Card className="p-6 bg-gradient-card border border-border/80">
-              <h2 className="font-heading text-2xl font-bold mb-4">Lĩnh Vực Kinh Doanh</h2>
+            <Card className="p-6 bg-gradient-card border border-border/80 hover:border-blue-800/50 transition-all duration-300 hover:shadow-lg hover:shadow-blue-800/20 hover:scale-105 cursor-pointer group">
+              <h2 className="font-heading text-2xl font-bold mb-4 group-hover:text-blue-900 group-hover:font-bold transition-colors">Lĩnh Vực Kinh Doanh</h2>
               <ul className="list-disc pl-5 space-y-2 text-sm md:text-base">
-                <li>Thiết bị điện (Dân dụng – Gia dụng)</li>
-                <li>Dụng cụ – Đồ nghề (Xây dựng, sửa chữa)</li>
-                <li>Các loại keo chuyên dụng (Silicone, Loctite, Băng keo)</li>
-                <li>Hóa chất công nghiệp và đa năng</li>
+                <li className="group-hover:text-blue-800 group-hover:font-semibold transition-colors">Thiết bị điện (Dân dụng – Gia dụng)</li>
+                <li className="group-hover:text-blue-800 group-hover:font-semibold transition-colors">Dụng cụ – Đồ nghề (Xây dựng, sửa chữa)</li>
+                <li className="group-hover:text-blue-800 group-hover:font-semibold transition-colors">Các loại keo chuyên dụng (Silicone, Loctite, Băng keo)</li>
+                <li className="group-hover:text-blue-800 group-hover:font-semibold transition-colors">Hóa chất công nghiệp và đa năng</li>
               </ul>
             </Card>
 
-            <Card className="p-6 bg-gradient-card border border-border/80">
-              <h2 className="font-heading text-2xl font-bold mb-4">Giá Trị Cốt Lõi</h2>
+            <Card className="p-6 bg-gradient-card border border-border/80 hover:border-blue-800/50 transition-all duration-300 hover:shadow-lg hover:shadow-blue-800/20 hover:scale-105 cursor-pointer group">
+              <h2 className="font-heading text-2xl font-bold mb-4 group-hover:text-blue-900 group-hover:font-bold transition-colors">Giá Trị Cốt Lõi</h2>
               <ul className="space-y-4 text-sm md:text-base">
                 <li>
-                  <span className="font-semibold">Chất lượng uy tín:</span> Cung cấp sản phẩm chất lượng, bền bỉ.
+                  <span className="font-semibold group-hover:text-blue-900 group-hover:font-bold transition-colors">Chất lượng uy tín:</span> <span className="group-hover:text-blue-800 group-hover:font-semibold transition-colors">Cung cấp sản phẩm chất lượng, bền bỉ.</span>
                 </li>
                 <li>
-                  <span className="font-semibold">Giá Cạnh Tranh:</span> Tối ưu chi phí cho đối tác.
+                  <span className="font-semibold group-hover:text-blue-900 group-hover:font-bold transition-colors">Giá Cạnh Tranh:</span> <span className="group-hover:text-blue-800 group-hover:font-semibold transition-colors">Tối ưu chi phí cho đối tác.</span>
                 </li>
                 <li>
-                  <span className="font-semibold">Dịch Vụ Tận Tâm:</span> Tư vấn đúng nhu cầu, hỗ trợ mọi quy mô nhu cầu.
+                  <span className="font-semibold group-hover:text-blue-900 group-hover:font-bold transition-colors">Dịch Vụ Tận Tâm:</span> <span className="group-hover:text-blue-800 group-hover:font-semibold transition-colors">Tư vấn đúng nhu cầu, hỗ trợ mọi quy mô nhu cầu.</span>
                 </li>
               </ul>
             </Card>

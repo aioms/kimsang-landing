@@ -1,5 +1,6 @@
 import { Award, Shield, TrendingUp, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 const features = [
   {
@@ -25,6 +26,7 @@ const features = [
 ];
 
 const About = () => {
+  const navigate = useNavigate();
   return (
     <section id="about" className="py-20 bg-background relative">
       {/* Section Decorator */}
@@ -41,12 +43,7 @@ const About = () => {
             lĩnh vực cung cấp thiết bị điện và công cụ xây dựng
           </p>
           <Button 
-            onClick={() => {
-              const element = document.getElementById("about");
-              if (element) {
-                element.scrollIntoView({ behavior: "smooth" });
-              }
-            }}
+            onClick={() => navigate("/ve-ngan-kim")}
             className="mt-6 bg-primary text-primary-foreground hover:bg-primary/90"
           >
             Tìm hiểu thêm
@@ -58,15 +55,15 @@ const About = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group p-6 rounded-lg border border-border bg-gradient-card hover:border-primary/30 transition-all duration-300 hover:shadow-hover"
+              className="group p-6 rounded-lg border border-border bg-gradient-card hover:border-orange-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/20 hover:scale-105 cursor-pointer"
             >
               <div className="w-12 h-12 bg-gradient-icon rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform shadow-md">
                 <feature.icon className="w-6 h-6 text-primary-foreground" />
               </div>
-              <h3 className="text-xl font-heading font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
+              <h3 className="text-xl font-heading font-bold text-foreground mb-3 group-hover:text-purple-900 group-hover:font-bold transition-colors">
                 {feature.title}
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed group-hover:text-purple-800 group-hover:font-semibold transition-colors">
                 {feature.description}
               </p>
             </div>

@@ -57,17 +57,17 @@ const Hero = () => {
 
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-3xl mx-auto">
-            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20">
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20 hover:border-orange-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/20 hover:scale-105 cursor-pointer group">
               <div className="text-3xl font-heading font-bold text-accent mb-2">30+</div>
-              <div className="text-primary-foreground/80">Năm kinh nghiệm</div>
+              <div className="text-primary-foreground/80 group-hover:text-white transition-colors">Năm kinh nghiệm</div>
             </div>
-            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20">
-              <div className="text-3xl font-heading font-bold text-accent mb-2">1000+</div>
-              <div className="text-primary-foreground/80">Khách hàng tin tưởng</div>
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20 hover:border-orange-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/20 hover:scale-105 cursor-pointer group">
+              <div className="text-3xl font-heading font-bold text-accent mb-2">1.000+</div>
+              <div className="text-primary-foreground/80 group-hover:text-white transition-colors">Khách hàng tin tưởng</div>
             </div>
-            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20">
-              <div className="text-3xl font-heading font-bold text-accent mb-2">10000+</div>
-              <div className="text-primary-foreground/80">Phân loại sản phẩm</div>
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20 hover:border-orange-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/20 hover:scale-105 cursor-pointer group">
+              <div className="text-3xl font-heading font-bold text-accent mb-2">10.000+</div>
+              <div className="text-primary-foreground/80 group-hover:text-white transition-colors">Mặt hàng</div>
             </div>
           </div>
         </div>

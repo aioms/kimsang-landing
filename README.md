@@ -1,4 +1,10 @@
-# Welcome to your Lovable project
+# Welcome to your Kim Sang Landing project
+
+## Deploy process
+
+1. git add .
+2. git commit -m "Deploy project"
+3. git push -u origin main
 
 ## Project info
 
