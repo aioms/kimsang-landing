@@ -9,30 +9,30 @@ type SubCategory = { title: string; products: Product[] };
 
 const data: Record<string, { title: string; subcategories?: SubCategory[]; products?: Product[] }> = {
   "do-dien-dan-dung": {
-    title: "Trung tâm Đồ điện - Hoá chất & Đồ nghề tổng hợp",
+    title: "Đồ điện dân dụng & gia dụng",
     subcategories: [
       {
         title: "Thiết bị điện",
         products: [
           { id: "elec-small-1", name: "Bình siêu tốc", price: "100.000₫", image: "/TBD.png" },
           { id: "elec-small-2", name: "Bình thuỷ điện", price: "150.000₫", image: "/TBD1.png" },
-          { id: "elec-small-3", name: "Dây điện/dây cáp", price: "200.000₫", image: "/TBD1..png" },
-          { id: "elec-small-4", name: "Phụ kiện điện thoại", price: "250.000₫", image: "/TBD2.png" },
-          { id: "elec-small-5", name: "Bóng đèn", price: "300.000₫", image: "/TBD3.png" },
-          { id: "elec-small-6", name: "Đèn Kentom", price: "350.000₫", image: "/TBD4.png" },
-          { id: "elec-small-7", name: "Quạt điện Senko", price: "400.000₫", image: "/TBD5.png" },
-          { id: "elec-small-8", name: "Thiết bị đo điện", price: "450.000₫", image: "/TBD6.png" },
-          { id: "elec-small-9", name: "Ổ cắm điện", price: "500.000₫", image: "/TBD7.png" },
-          { id: "elec-small-10", name: "Công tắc điện", price: "550.000₫", image: "/TBD8.png" },
+          { id: "elec-small-3", name: "Nồi cơm điện", price: "200.000₫", image: "/TBD1..png" },
+          { id: "elec-small-4", name: "Điện thoại bàn", price: "250.000₫", image: "/TBD2.png" },
+          { id: "elec-small-5", name: "Thiết bị vệ sinh", price: "300.000₫", image: "/TBD3.png" },
+          { id: "elec-small-6", name: "Quạt Senko", price: "350.000₫", image: "/TBD4.png" },
+          { id: "elec-small-7", name: "Máy hút chân không", price: "400.000₫", image: "/TBD5.png" },
+          { id: "elec-small-8", name: "Phụ kiện điện thoại", price: "450.000₫", image: "/TBD6.png" },
+          { id: "elec-small-9", name: "Đồng hồ đo điện", price: "500.000₫", image: "/TBD7.png" },
+          { id: "elec-small-10", name: "Ampe kẹp điện", price: "550.000₫", image: "/TBD8.png" },
         ],
       },
       {
         title: "Vật tư điện",
         products: [
-          { id: "elec-supply-1", name: "Dây điện 1.5mm", price: "80.000₫", image: "/VTD.png" },
-          { id: "elec-supply-2", name: "Dây điện 2.5mm", price: "120.000₫", image: "/VTD1.png" },
-          { id: "elec-supply-3", name: "Cáp điện 3 lõi", price: "160.000₫", image: "/VTD2.png" },
-          { id: "elec-supply-4", name: "Cáp điện 4 lõi", price: "200.000₫", image: "/VTD3.png" },
+          { id: "elec-supply-1", name: "Dây điện/dây cáp", price: "80.000₫", image: "/VTD.png" },
+          { id: "elec-supply-2", name: "Linh kiện điện tử", price: "120.000₫", image: "/VTD1.png" },
+          { id: "elec-supply-3", name: "Bút thử điện", price: "160.000₫", image: "/VTD2.png" },
+          { id: "elec-supply-4", name: "Ổ cắm điện", price: "200.000₫", image: "/VTD3.png" },
         ],
       },
       {
@@ -40,11 +40,11 @@ const data: Record<string, { title: string; subcategories?: SubCategory[]; produ
         products: [
           { id: "elec-light-1", name: "Bóng đèn", price: "180.000₫", image: "/DEN.png" },
           { id: "elec-light-2", name: "Đèn Kentom", price: "240.000₫", image: "/DEN1.png" },
-          { id: "elec-light-3", name: "Đèn tuýp", price: "300.000₫", image: "/DEN2.png" },
-          { id: "elec-light-4", name: "Đèn chùm", price: "360.000₫", image: "/DEN3.png" },
-          { id: "elec-light-5", name: "Đèn bàn", price: "420.000₫", image: "/DEN4.png" },
-          { id: "elec-light-6", name: "Đèn sân vườn", price: "480.000₫", image: "/DEN5.png" },
-          { id: "elec-light-7", name: "Đèn cảm ứng", price: "540.000₫", image: "/DEN6.png" },
+          { id: "elec-light-3", name: "Đèn pin Wasing", price: "300.000₫", image: "/DEN2.png" },
+          { id: "elec-light-4", name: "Đèn đội đầu", price: "360.000₫", image: "/DEN3.png" },
+          { id: "elec-light-5", name: "Đèn pin/sạc", price: "420.000₫", image: "/DEN4.png" },
+          { id: "elec-light-6", name: "Đèn bắt muỗi", price: "480.000₫", image: "/DEN5.png" },
+          { id: "elec-light-7", name: "Đèn bàn", price: "540.000₫", image: "/DEN6.png" },
         ],
       },
       {
@@ -155,9 +155,9 @@ const data: Record<string, { title: string; subcategories?: SubCategory[]; produ
           { id: "oil-1", name: "RP7", price: "70.000₫", image: "/RP7.png" },
           { id: "oil-2", name: "Tẩy dầu mỡ RP7", price: "85.000₫", image: "/RP72.png" },
           { id: "oil-3", name: "Permatex", price: "95.000₫", image: "/Permatex.png" },
-          { id: "oil-4", name: "Otech", price: "80.000₫", image: "/Otech.png" },
+          { id: "oil-4", name: "Xịt sên O'tech", price: "80.000₫", image: "/Otech.png" },
           { id: "oil-5", name: "Castrol", price: "120.000₫", image: "/Castrol.png" },
-          { id: "oil-6", name: "Otech (phiên bản 2)", price: "90.000₫", image: "/Otech2.png" },
+          { id: "oil-6", name: "Xịt tiếp điểm O'tech", price: "90.000₫", image: "/Otech2.png" },
           { id: "oil-7", name: "Abro", price: "75.000₫", image: "/Abro.png" },
           { id: "oil-8", name: "Megacools", price: "85.000₫", image: "/Megacools.png" },
           { id: "oil-9", name: "Selsil", price: "95.000₫", image: "/Selsilcopy.png" },

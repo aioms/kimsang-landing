@@ -7,7 +7,7 @@ type Product = { id: string; name: string; price: string; image: string };
 
 const catalog: { title: string; slug: string; products: Product[] }[] = [
   {
-    title: "Đồ điện dân dụng & gia dụng khác",
+    title: "Đồ điện dân dụng & gia dụng",
     slug: "do-dien-dan-dung",
     products: [
       { id: "elec-mix-1", name: "Bình siêu tốc", price: "100.000₫", image: "/TBD.png" },
