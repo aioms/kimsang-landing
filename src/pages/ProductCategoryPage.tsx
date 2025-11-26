@@ -223,7 +223,7 @@ const data: Record<string, { title: string; subcategories?: SubCategory[]; produ
     ],
   },
   "can-do-may-tinh-thiet-bi-khac": {
-    title: "Cân đo, máy tính & thiết bị gia dụng",
+    title: "Cân, máy tính & dụng cụ gia dụng",
     subcategories: [
       {
         title: "Cân đo",

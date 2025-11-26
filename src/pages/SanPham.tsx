@@ -7,7 +7,7 @@ type Product = { id: string; name: string; price: string; image: string };
 
 const catalog: { title: string; slug: string; products: Product[] }[] = [
   {
-    title: "Đồ điện dân dụng",
+    title: "Đồ điện dân dụng & gia dụng khác",
     slug: "do-dien-dan-dung",
     products: [
       { id: "elec-mix-1", name: "Bình siêu tốc", price: "100.000₫", image: "/TBD.png" },
@@ -43,7 +43,7 @@ const catalog: { title: string; slug: string; products: Product[] }[] = [
     ],
   },
   {
-    title: "Cân đo, máy tính, thiết bị khác",
+    title: "Cân, máy tính & dụng cụ gia dụng",
     slug: "can-do-may-tinh-thiet-bi-khac",
     products: [
       { id: "measure-scale", name: "Cân Nhơn Hoà", price: "240.000₫", image: "/CAN.png" },

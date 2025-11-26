@@ -5,27 +5,31 @@ import { ArrowRight } from "lucide-react";
 const categories = [
   {
     id: 1,
-    name: "Đồ điện dân dụng",
+    name: "Đồ điện dân dụng & gia dụng",
     description: "Thiết bị điện chất lượng cao cho mọi gia đình",
     image: "/product-electrical.jpg",
+    slug: "do-dien-dan-dung",
   },
   {
     id: 2,
     name: "Đồ nghề xây dựng",
     description: "Công cụ chuyên nghiệp cho ngành xây dựng",
-    image: "/product-construction.jpg",
+    image: "/MAUDN2.png",
+    slug: "do-nghe-xay-dung",
   },
   {
     id: 3,
     name: "Băng keo & keo đa năng",
     description: "Giải pháp dính kết đa dạng và hiệu quả",
     image: "/adhesive-brands.jpg",
+    slug: "bang-keo-keo-da-nang",
   },
   {
     id: 4,
-    name: "Cân đo & máy tính",
+    name: "Cân, máy tính & dụng cụ gia dụng",
     description: "Thiết bị đo lường chính xác và tin cậy",
     image: "/product-measuring.jpg",
+    slug: "can-do-may-tinh-thiet-bi-khac",
   },
 ];
 
@@ -50,7 +54,7 @@ const ProductCategories = () => {
         {/* Product Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((category) => (
-            <Link key={category.id} to="/san-pham" className="block">
+            <Link key={category.id} to={`/san-pham/${category.slug}`} className="block">
             <Card
               className="group overflow-hidden border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-hover cursor-pointer bg-gradient-card"
             >

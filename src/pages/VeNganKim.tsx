@@ -73,7 +73,7 @@ const VeNganKim = () => {
           </div>
 
           <div className="mb-16">
-            <h2 className="font-heading text-2xl font-bold mb-6 text-center">Hình ảnh về công ty và cửa hàng</h2>
+            <h2 className="font-heading text-2xl font-bold mb-6 text-center">Trung tâm bách hoá đồ điện, hoá chất & đồ nghề tổng hợp</h2>
             <div className="relative">
               <Carousel setApi={(api) => (apiRef.current = api)} opts={{ loop: true }} className="max-w-5xl mx-auto">
                 <CarouselContent>
